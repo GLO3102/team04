@@ -9,6 +9,7 @@ define(function (require) {
         REACTIONS_EMOJI_MOVIE_URL: 'https://api.myjson.com/bins/1qxo1',
         REACTIONS_EMOJI_TVSHOW_URL: 'https://api.myjson.com/bins/17uxt',
         REACTIONS_EMOJI_WATCHLIST_URL: 'https://api.myjson.com/bins/4ulq9',
+        VOTER_ID: 'nanashi@sekai-no-owari.umovie',
         ENTER_KEY: 13
     };
 
