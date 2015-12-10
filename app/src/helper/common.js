@@ -10,7 +10,6 @@ define(function (require) {
         REACTIONS_EMOJI_MOVIE_URL: 'https://jsonblob.com/api/jsonBlob/565139c6e4b01190df40ef0a',
         REACTIONS_EMOJI_TVSHOW_URL: 'https://jsonblob.com/api/jsonBlob/565137c2e4b01190df40ef00',
         REACTIONS_EMOJI_WATCHLIST_URL: 'https://jsonblob.com/api/jsonBlob/56513aefe4b01190df40ef10',
-        VOTER_ID: 'nanashi@sekai-no-owari.umovie',
         LOGIN_TOKEN_COOKIE: 'LoginToken',
         CURRENT_USER_ID: 'CurrentUserId',
         CURRENT_USER_EMAIL: 'CurrentUserEmail',
