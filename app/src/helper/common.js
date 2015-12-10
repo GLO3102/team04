@@ -13,7 +13,15 @@ define(function (require) {
         VOTER_ID: 'nanashi@sekai-no-owari.umovie',
         LOGIN_TOKEN_COOKIE: 'LoginToken',
         CURRENT_USER_ID: 'CurrentUserId',
-        ENTER_KEY: 13
+        ENTER_KEY: 13,
+
+        getSecuredUrl: function(pathParam, onlyQueryParam) {
+            if(onlyQueryParam !== undefined) {
+                return this.UMOVIE_API_BASE_URL_SECURED + pathParam + '?access_token=' + $.cookie(this.LOGIN_TOKEN_COOKIE);
+            } else {
+                return this.UMOVIE_API_BASE_URL_SECURED + pathParam + '&access_token=' + $.cookie(this.LOGIN_TOKEN_COOKIE);
+            }
+        }
     };
 
 });
