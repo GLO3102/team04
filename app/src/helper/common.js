@@ -13,6 +13,7 @@ define(function (require) {
         VOTER_ID: 'nanashi@sekai-no-owari.umovie',
         LOGIN_TOKEN_COOKIE: 'LoginToken',
         CURRENT_USER_ID: 'CurrentUserId',
+        CURRENT_USER_EMAIL: 'CurrentUserEmail',
         ENTER_KEY: 13,
 
         getSecuredUrl: function(pathParam, onlyQueryParam) {
