@@ -21,6 +21,15 @@ define(function (require) {
             } else {
                 return this.UMOVIE_API_BASE_URL_SECURED + pathParam + '&access_token=' + $.cookie(this.LOGIN_TOKEN_COOKIE);
             }
+        },
+
+        isUserLoggedIn: function() {
+            var self = this;
+
+            return $.ajax({
+                url: self.getSecuredUrl('tokenInfo', true),
+                type: 'GET'
+            });
         }
     };
 
